@@ -38,7 +38,6 @@ const App = () =>{
     <div className="App">
 
       <h1>Crear Tu Meme!!!</h1>
-
       {/* Cajas de Texto para Excribir en la imagen */}
       <input onChange={changeLine1} type="text" placeholder="Escribe la Linea 1"/>
       <br/>
