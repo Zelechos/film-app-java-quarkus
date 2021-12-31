@@ -1,6 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
 import { useState } from 'react';
+import './App.css';
 import html2canvas from 'html2canvas';
 
 
@@ -64,7 +63,7 @@ const App = () =>{
         <span id="line1">{line1}</span>
         <br/>
         <span id="line2">{line2}</span>
-        <img src={"/img/"+image+".jpg"}/>
+        <img src={"./img/"+image+".jpg"}/>
       </div>
 
       {/*Boton para exportar los memes */}
