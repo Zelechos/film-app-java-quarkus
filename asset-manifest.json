@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/create-react-meme/static/css/main.4f932693.css",
+    "main.js": "/create-react-meme/static/js/main.650bb53d.js",
+    "static/js/787.c468c407.chunk.js": "/create-react-meme/static/js/787.c468c407.chunk.js",
+    "static/media/logo.svg": "/create-react-meme/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/create-react-meme/index.html",
+    "main.4f932693.css.map": "/create-react-meme/static/css/main.4f932693.css.map",
+    "main.650bb53d.js.map": "/create-react-meme/static/js/main.650bb53d.js.map",
+    "787.c468c407.chunk.js.map": "/create-react-meme/static/js/787.c468c407.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f932693.css",
+    "static/js/main.650bb53d.js"
+  ]
+}
