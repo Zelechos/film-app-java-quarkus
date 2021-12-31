@@ -32,13 +32,12 @@ const App = () =>{
       link.href = image;
       link.click();
     });
-
-    
-
   }
 
   return (
     <div className="App">
+
+      <h1>Crear Tu Meme!!!</h1>
 
       {/* Cajas de Texto para Excribir en la imagen */}
       <input onChange={changeLine1} type="text" placeholder="Escribe la Linea 1"/>
@@ -63,7 +62,7 @@ const App = () =>{
         <span id="line1">{line1}</span>
         <br/>
         <span id="line2">{line2}</span>
-        <img src={"./img/"+image+".jpg"}/>
+        <img src={"/img/"+image+".jpg"}/>
       </div>
 
       {/*Boton para exportar los memes */}
