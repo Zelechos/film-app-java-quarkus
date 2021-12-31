@@ -1,6 +1,8 @@
+body{
+  background-color: #463d2b;
+}
 .App {
   text-align: center;
-  background-color: #463d2b;
   height: 100vh;
 }
 
@@ -12,6 +14,11 @@
   font-size: 20px;
   color: #bed3e1;
   margin-top: 10px;
+}
+
+h1{
+  color: #bed3e1;
+  margin-top: 30px;
 }
 
 .selector-meme{
