@@ -5,10 +5,11 @@ import html2canvas from 'html2canvas';
 
 const App = () =>{
   
-  // Creamos un Estados de React
+  // Creamos los Estados de React
   const [line1, setLine1] = useState('');
   const [line2, setLine2] = useState('');
   const [image, setImage] = useState('');
+  
   // Subrutinas para cambiar los valores de las lineas
   const changeLine1 = line =>{
     setLine1(line.target.value);
@@ -72,3 +73,5 @@ const App = () =>{
 }
 
 export default App;
+
+// Continuamos en el MINUTO 29:00
